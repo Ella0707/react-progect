@@ -11,12 +11,21 @@ import img6 from "./asetss/img/image6.jpg";
 function App() {
   return (
     <div className="App">
-      <Headliner title="Hate speech vs free speech" thumbnail={img1} label="BBC NEWS" />
-      <Headliner title="Ontario Liberal leadership" thumbnail={img2} label="BBC NEWS"/>
-      <Headliner title="Victim of Scarborough" thumbnail={img3} label="BBC NEWS"/>
-      <Headliner title="Mother who left her baby" thumbnail={img4} label="ABC NEWS"/>
-      <Headliner title="Mother of Stefanie Rengel" thumbnail={img5} label="CW6 NEWS"/>
-      <Headliner title="World   Cup: Popular items" thumbnail={img6} label="CNN NEWS"/>
+      <header className='header'>Header</header>
+      <aside className='sidebar'>Aside</aside>
+      <main className='main'>
+        <section className='headliners'>
+          <h2 className='block-title'>Today’s Headlines</h2>
+          <div className='block-content'>
+            <Headliner title="Hate speech vs free speech" thumbnail={img1} label="BBC NEWS" />
+            <Headliner title="Ontario Liberal leadership" thumbnail={img2} label="BBC NEWS" />
+            <Headliner title="Victim of Scarborough" thumbnail={img3} label="BBC NEWS" />
+            <Headliner title="Mother who left her baby" thumbnail={img4} label="ABC NEWS" />
+            <Headliner title="Mother of Stefanie Rengel" thumbnail={img5} label="CW6 NEWS" />
+            <Headliner title="World   Cup: Popular items" thumbnail={img6} label="CNN NEWS" />
+          </div>
+        </section>
+      </main>
     </div>
   );
 }

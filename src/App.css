@@ -15,6 +15,17 @@
 .header {
     grid-area: h;
 
+    display: flex;
+
+}
+
+.headerWrap {
+    display: flex;
+    align-items: center;
+}
+
+.headerOption {
+    display: flex;
 }
 
 

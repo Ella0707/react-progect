@@ -26,10 +26,6 @@ function Headliner(props) {
             <Label label={props.label}/>
             <Time />
         </div>
-
-
-
-
     </div>
     </div>
   );

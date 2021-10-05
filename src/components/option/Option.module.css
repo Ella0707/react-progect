@@ -1,0 +1,16 @@
+.option {
+    display: flex;
+    align-items: center;
+
+    padding-left: 32px;
+}
+
+.optionArrowWrap {
+    display: flex;
+    flex-direction: column;
+}
+
+.optionArrowDown {
+    transform: rotate(180deg);
+}
+

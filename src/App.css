@@ -28,6 +28,17 @@
     display: flex;
 }
 
+.userImg {
+    border-radius: 50%;
+}
+
+.channel-content {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 32px;
+    gap: 32px;
+}
+
 
 .sidebar {
     grid-area: s;

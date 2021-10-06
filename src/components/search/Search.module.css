@@ -1,6 +1,33 @@
 .search {
     width: 385px;
     height: 48px;
+
+    border-radius: 10px;
+    background-color: #F7F7F7;
+    border: 1 px solid red;
+    outline: none;
+
+    padding-left: 48px;
 }
 
+.search::placeholder {
+    font-size: 14px;
+    color: #626264;   
+}
+
+.searchWrap {
+    position: relative;
+}
+
+.searchWrap::before {
+    content: "";
+    background-image: url(./../../asetss/img/search.png);
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    
+    position: absolute;
+    top: 30%;
+    left: 4%;
+}
 

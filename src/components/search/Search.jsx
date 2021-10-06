@@ -2,9 +2,11 @@ import s from './Search.module.css';
 
 
 
-function Search (props) {
+function Search(props) {
     return (
-        <input className={s.search} type="text" search={props.search}/>
+        <div className={s.searchWrap}>
+            <input className={s.search} type="text" placeholder="Search for anything…" search={props.search} />
+        </div>
     );
 }
 

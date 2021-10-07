@@ -1,0 +1,11 @@
+.itemTitle {
+    font-size: 24px;
+    font-weight: 400;
+    color: #878787;
+}
+
+
+.itemTitle:hover {
+color: #503E9D;
+font-weight: 700;
+}

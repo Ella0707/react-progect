@@ -48,8 +48,13 @@ function App() {
         <div className='list'>
 
           <div className='itemWrap'>
+<<<<<<< HEAD
           <svg className='svgIcon' width="24" height="23" viewBox="0 0 24 23"  xmlns="http://www.w3.org/2000/svg">
               <path className='svgPath' fill-rule="evenodd" clip-rule="evenodd" d="M24 12.0534L12 0L0 12.0534H2.31282V23H10.7891V15.7023H13.2109V23H21.6872V12.0534H24ZM8.36731 13.2697V20.5674H4.73461V10.7277L12 3.42993L19.2654 10.7277V20.5674H15.6327V13.2697H13.2109H10.7891H8.36731Z"/>
+=======
+          <svg className='svg' width="24" height="23" viewBox="0 0 24 23" fill="none"  xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M24 12.0534L12 0L0 12.0534H2.31282V23H10.7891V15.7023H13.2109V23H21.6872V12.0534H24ZM8.36731 13.2697V20.5674H4.73461V10.7277L12 3.42993L19.2654 10.7277V20.5674H15.6327V13.2697H13.2109H10.7891H8.36731Z" fill="#878787" />
+>>>>>>> aa175ccb5630225e0b7a662b69281d9d8e58c342
             </svg>
             <Item itemTitle='Home' />
           </div>

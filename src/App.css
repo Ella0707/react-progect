@@ -67,6 +67,19 @@
     border-radius: 12px;
 }
 
+<<<<<<< HEAD
+=======
+.svg {
+    stroke-width: 1px;
+
+    margin-right: 24px;
+
+}
+
+/* .could-link {
+    text-align: end;
+} */
+>>>>>>> aa175ccb5630225e0b7a662b69281d9d8e58c342
 
 .could-value {
     width: 24px;

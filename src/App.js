@@ -6,13 +6,7 @@ import img3 from "./asetss/img/image3.jpg";
 import img4 from "./asetss/img/image4.jpg";
 import img5 from "./asetss/img/image5.jpg";
 import img6 from "./asetss/img/image6.jpg";
-import Option from './components/option/Option';
-import optionImg1 from "./asetss/img/option-img1.png";
-import optionImg2 from "./asetss/img/option-img2.png";
-import optionImg3 from "./asetss/img/option-img3.png";
-import Search from './components/search/Search';
-import btnImg from './asetss/img/Buttons.png';
-import userImg from './asetss/img/user.png';
+
 import Channel from './components/channel/Channel';
 import channelImg1 from './asetss/img/channelImg1.png';
 import channelImg2 from './asetss/img/channelImg2.png';
@@ -27,7 +21,8 @@ import featuredImg3 from './asetss/img/featuredImg3.png';
 
 import logoImg from './asetss/img/logo.png';
 import Item from './components/item/Item';
-import ItemTitle from './components/item-title/ItemTitle';
+
+import Header from './components/header/Header';
 
 
 
@@ -38,27 +33,8 @@ function App() {
   return (
     <div className="App">
 
-      {/* HEADER  */}
-      <header className='header'>
-
-        <div className='headerWrap'>
-
-          <div className='headerOption'>
-            <Option optionTitle="San Francisco, California" optionImg={optionImg1} />
-            <Option optionTitle="Analysis" optionImg={optionImg2} />
-            <Option optionTitle="Monthly" optionImg={optionImg3} />
-          </div>
-
-          <Search />
-
-          <a className='btnLink'>
-            <img className="btnImg" src={btnImg} alt="" />
-          </a>
-          <a className='userLink'>
-            <img className="userImg" src={userImg} alt="" />
-          </a>
-        </div>
-      </header>
+   
+     <Header/>
 
 
       <aside className='sidebar'>
@@ -72,22 +48,22 @@ function App() {
         <div className='list'>
 
           <div className='itemWrap'>
-          <svg className='svg' width="24" height="23" viewBox="0 0 24 23" fill="none"  xmlns="http://www.w3.org/2000/svg">
-              <path fill-rule="evenodd" clip-rule="evenodd" d="M24 12.0534L12 0L0 12.0534H2.31282V23H10.7891V15.7023H13.2109V23H21.6872V12.0534H24ZM8.36731 13.2697V20.5674H4.73461V10.7277L12 3.42993L19.2654 10.7277V20.5674H15.6327V13.2697H13.2109H10.7891H8.36731Z" fill="#503E9D" />
+          <svg className='svgIcon' width="24" height="23" viewBox="0 0 24 23"  xmlns="http://www.w3.org/2000/svg">
+              <path className='svgPath' fill-rule="evenodd" clip-rule="evenodd" d="M24 12.0534L12 0L0 12.0534H2.31282V23H10.7891V15.7023H13.2109V23H21.6872V12.0534H24ZM8.36731 13.2697V20.5674H4.73461V10.7277L12 3.42993L19.2654 10.7277V20.5674H15.6327V13.2697H13.2109H10.7891H8.36731Z"/>
             </svg>
             <Item itemTitle='Home' />
           </div>
 
           <div className='itemWrap'>
-          <svg className='svg' width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <svg className='svgIcon' width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0H10.6667V13.3333H0V0ZM24 0H13.3333V8H24V0ZM8 10.6667V2.66667H2.66667V10.6667H8ZM21.3333 5.33333V2.66667H16V5.33333H21.3333ZM21.3333 13.3333V21.3333H16V13.3333H21.3333ZM8 21.3333V18.6667H2.66667V21.3333H8ZM24 10.6667H13.3333V24H24V10.6667ZM0 16H10.6667V24H0V16Z" fill="#878787" />
             </svg>
             <Item itemTitle='Explore' />
           </div>
 
           <div className='itemWrap'>
-          <svg className='svg' width="18" height="24" viewBox="0 0 18 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path fill-rule="evenodd" clip-rule="evenodd" d="M2.57143 0H15.4286C16.8429 0 18 1.18667 18 2.66667V24L9 20L0 24V2.66667C0 1.19391 1.15127 0 2.57143 0ZM9 17.0933L15.4286 20V2.66667H2.57143V20L9 17.0933Z" fill="#878787" />
+          <svg className='svgIcon' width="18" height="24" viewBox="0 0 18 24" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M2.57143 0H15.4286C16.8429 0 18 1.18667 18 2.66667V24L9 20L0 24V2.66667C0 1.19391 1.15127 0 2.57143 0ZM9 17.0933L15.4286 20V2.66667H2.57143V20L9 17.0933Z" />
             </svg>
             <Item itemTitle='Saved' />
           </div>
